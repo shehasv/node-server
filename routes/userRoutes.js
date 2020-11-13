@@ -2,7 +2,6 @@ const express = require('express');
 const userController = require('../controllers/userController');
 
 
-const bookController = require('../controllers/userController');
 
 const route = express.Router();
 route.get("/users",userController.getUser);
